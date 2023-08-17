@@ -3,7 +3,10 @@ import Space from "./space";
 
 function App() {
   return (
-      <Space/>
+      <div>
+        <Space start={0} height={100} starType={0}/>
+        <Space start={100} height={100} starType={1}/>
+      </div>
   );
 }
 
